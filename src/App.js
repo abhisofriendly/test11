@@ -2,9 +2,10 @@ import './App.css';
 import Video from './Video';
 
 function App() {
+  console.log("hhhh")
   return (
     <div className="app">
-      <div className="app__videos">
+      <div className="app">
         <Video />
         <Video />
       </div>
